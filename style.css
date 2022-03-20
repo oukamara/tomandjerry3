@@ -1,0 +1,75 @@
+body {
+    background-color: cadetblue;
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 730px;
+    background-image: url("banner.png");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.title h1{
+    color: aliceblue;
+    text-transform: uppercase;
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    font-family: monospace;
+    text-decoration: underline;
+}
+
+.intro p{
+    color: aliceblue;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    padding: 6px;
+}
+
+.intro h2{
+    color: aliceblue;
+    word-spacing: 10px;
+    letter-spacing: 5px;
+    font-family: monospace;
+    text-transform: uppercase;
+
+}
+
+.charactercard {
+    width: 325px;
+    height: 550px;
+    border: 2px solid rgb(60, 112, 114);
+    display: inline-block;
+    margin: 15px;
+    letter-spacing: 1px;
+    
+}
+
+.charactercard p {
+    padding: 3px;
+    letter-spacing: 2px;
+}
+
+.charactercard h3 {
+    padding: 3px;
+    letter-spacing: 5px;
+}
+
+.charactercard img {
+    width: 325px;
+    height: 350px;
+}
+
+.charactercard h3,p {
+    color: aliceblue;
+    font-family: sans-serif;
+}
+
+.end {
+    color: aliceblue;
+    font-family: monospace;
+    letter-spacing: 3px;
+    padding: 35px;
+}
